@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cubik webGL</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+<div id="stats-output"></div>
+<div id="controls">
+    <div class="control" place="top">
+        <span>Top:</span>
+        <span class="turn" direction="+">+</span>
+        <span class="turn" direction="-">-</span>
+    </div>
+    <div class="control" place="right">
+        <span>Right:</span>
+        <span class="turn" direction="+">+</span>
+        <span class="turn" direction="-">-</span>
+    </div>
+    <div class="control" place="left">
+        <span>Left:</span>
+        <span class="turn" direction="+">+</span>
+        <span class="turn" direction="-">-</span>
+    </div>
+    <div class="control" place="bottom">
+        <span>Bottom:</span>
+        <span class="turn" direction="+">+</span>
+        <span class="turn" direction="-">-</span>
+    </div>
+    <div class="control" place="back">
+        <span>Back:</span>
+        <span class="turn" direction="+">+</span>
+        <span class="turn" direction="-">-</span>
+    </div>
+    <div class="control" place="front">
+        <span>Front:</span>
+        <span class="turn" direction="+">+</span>
+        <span class="turn" direction="-">-</span>
+    </div>
+
+</div>
+<div id="webgl-output"></div>
+</body>
+<!-- vendor's script-->
+<script src="scripts/vendors/three.min.js"></script>
+<script src="scripts/vendors/stats.min.js"></script>
+<script src="scripts/vendors/OrbitControls.js"></script>
+<script src="scripts/vendors/Projector.js"></script>
+
+<!--app's scripts-->
+<script src="scripts/bundle.js"></script>
+
+</html>

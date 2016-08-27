@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+#controls {
+    position: absolute;
+    top: 50px;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}
+
+span {
+    color: white;
+}
+
+#controls span:first-child {
+    font-size: 20px;
+    width: 80px;
+    display: inline-block;
+}
+
+#controls span:not(:first-child) {
+    width: 20px;
+    height: 20px;
+    border: 1px solid white;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+}
+
+#stats-output {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
